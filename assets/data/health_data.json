@@ -1,0 +1,231 @@
+{
+    "NormalBloodPressure": {
+        "bloodPressureRange": "Less than 120/80 mmHg",
+        "lifestyle": {
+            "diet": {
+                "recommendations": "Maintain a balanced diet rich in fruits, vegetables, whole grains, and lean proteins.",
+                "saltIntake": "Limit sodium intake to under 2,300 mg per day, preferably closer to 1,500 mg."
+            },
+            "exercise": {
+                "recommendations": "Engage in regular physical activity for at least 150 minutes of moderate exercise or 75 minutes of vigorous exercise per week.",
+                "examples": "Jogging, swimming, strength training, and cycling."
+            },
+            "weightManagement": {
+                "recommendations": "Maintain a healthy BMI between 18.5 and 24.9.",
+                "strategy": "Healthy diet and regular exercise to keep weight in check."
+            },
+            "alcohol": {
+                "recommendations": "Consume alcohol in moderation: no more than 1 drink per day for women and 2 drinks per day for men."
+            },
+            "smoking": {
+                "recommendations": "Avoid smoking and secondhand smoke exposure to maintain cardiovascular health."
+            },
+            "stressManagement": {
+                "recommendations": "Practice stress reduction techniques like mindfulness, yoga, or meditation regularly."
+            }
+        }
+    },
+    "Stage1Hypertension": {
+        "bloodPressureRange": "130-139/80-89 mmHg",
+        "lifestyle": {
+            "diet": {
+                "recommendations": "Adopt the DASH diet (rich in fruits, vegetables, whole grains, and low-fat dairy).",
+                "saltIntake": "Limit sodium to less than 2,300 mg per day, ideally 1,500 mg."
+            },
+            "exercise": {
+                "recommendations": "Engage in at least 150 minutes of moderate-intensity exercise per week.",
+                "examples": "Walking, swimming, cycling."
+            },
+            "weightManagement": {
+                "recommendations": "Aim to maintain a healthy BMI between 18.5 and 24.9.",
+                "strategy": "Losing 1-2 pounds per week through diet and exercise."
+            },
+            "alcohol": {
+                "recommendations": "Limit alcohol to no more than 1 drink per day for women and 2 drinks per day for men."
+            },
+            "smoking": {
+                "recommendations": "Quit smoking to improve heart health."
+            },
+            "stressManagement": {
+                "recommendations": "Incorporate stress-relief techniques like yoga, meditation, or deep breathing exercises."
+            }
+        },
+        "medications": {
+            "ThiazideDiuretics": {
+                "medicationName": "Hydrochlorothiazide, Chlorthalidone",
+                "schedule": {
+                    "frequency": "Once daily",
+                    "time": "Morning",
+                    "dosage": "12.5-25 mg",
+                    "numberOfPills": 1
+                },
+                "instructions": "Take in the morning to avoid nighttime urination. Ensure adequate fluid intake."
+            },
+            "ACEInhibitors": {
+                "medicationName": "Lisinopril, Enalapril",
+                "schedule": {
+                    "frequency": "Once daily",
+                    "time": "Morning or Evening",
+                    "dosage": "10-40 mg",
+                    "numberOfPills": 1
+                },
+                "instructions": "Can be taken with or without food. If starting, consider taking first dose at night to avoid dizziness."
+            },
+            "ARBs": {
+                "medicationName": "Losartan, Valsartan",
+                "schedule": {
+                    "frequency": "Once daily",
+                    "time": "Morning or Evening",
+                    "dosage": "50-100 mg",
+                    "numberOfPills": 1
+                },
+                "instructions": "Take with or without food. Monitor for dizziness."
+            },
+            "CalciumChannelBlockers": {
+                "medicationName": "Amlodipine",
+                "schedule": {
+                    "frequency": "Once daily",
+                    "time": "Morning",
+                    "dosage": "5-10 mg",
+                    "numberOfPills": 1
+                },
+                "instructions": "Take with or without food. Watch for leg swelling."
+            }
+        }
+    },
+    "Stage2Hypertension": {
+        "bloodPressureRange": "≥140/90 mmHg",
+        "lifestyle": {
+            "diet": {
+                "recommendations": "Strict adherence to the DASH diet, with increased focus on potassium-rich foods.",
+                "saltIntake": "Limit sodium to less than 1,500 mg per day."
+            },
+            "exercise": {
+                "recommendations": "Engage in 150 minutes of moderate-intensity aerobic exercise weekly.",
+                "examples": "Walking, cycling, or water aerobics."
+            },
+            "weightManagement": {
+                "recommendations": "Lose 5-10% of body weight to help reduce blood pressure.",
+                "strategy": "Reduce caloric intake and increase physical activity."
+            },
+            "alcohol": {
+                "recommendations": "Reduce alcohol consumption to 1 drink daily for women, 2 drinks daily for men."
+            },
+            "smoking": {
+                "recommendations": "Quit smoking immediately for heart and blood vessel health."
+            },
+            "stressManagement": {
+                "recommendations": "Use stress-reducing methods like progressive muscle relaxation or therapy."
+            }
+        },
+        "medications": {
+            "CombinationTherapy": {
+                "ACEInhibitor": {
+                    "medicationName": "Lisinopril",
+                    "schedule": {
+                        "frequency": "Once daily",
+                        "time": "Morning or Evening",
+                        "dosage": "10-40 mg",
+                        "numberOfPills": 1
+                    },
+                    "instructions": "Take at the same time each day. Can be taken with or without food."
+                },
+                "ARB": {
+                    "medicationName": "Losartan",
+                    "schedule": {
+                        "frequency": "Once daily",
+                        "time": "Morning or Evening",
+                        "dosage": "50-100 mg",
+                        "numberOfPills": 1
+                    },
+                    "instructions": "Take with or without food."
+                },
+                "ThiazideDiuretic": {
+                    "medicationName": "Hydrochlorothiazide",
+                    "schedule": {
+                        "frequency": "Once daily",
+                        "time": "Morning",
+                        "dosage": "12.5-25 mg",
+                        "numberOfPills": 1
+                    },
+                    "instructions": "Drink fluids. Take in the morning to avoid nighttime urination."
+                },
+                "CalciumChannelBlocker": {
+                    "medicationName": "Amlodipine",
+                    "schedule": {
+                        "frequency": "Once daily",
+                        "time": "Morning or Evening",
+                        "dosage": "5-10 mg",
+                        "numberOfPills": 1
+                    },
+                    "instructions": "Take with or without food. Watch for leg swelling."
+                }
+            },
+            "BetaBlockers": {
+                "medicationName": "Metoprolol, Atenolol",
+                "schedule": {
+                    "frequency": "Once or Twice daily",
+                    "time": "Morning and/or Evening",
+                    "dosage": "25-100 mg",
+                    "numberOfPills": "1-2"
+                },
+                "instructions": "Take with food. Do not stop taking without medical advice."
+            },
+            "AldosteroneAntagonists": {
+                "medicationName": "Spironolactone",
+                "schedule": {
+                    "frequency": "Once daily",
+                    "time": "Morning",
+                    "dosage": "25-50 mg",
+                    "numberOfPills": 1
+                },
+                "instructions": "Take with food. Monitor potassium levels."
+            }
+        }
+    },
+    "HypertensiveCrisis": {
+        "bloodPressureRange": "≥180/120 mmHg",
+        "lifestyle": {
+            "diet": {
+                "recommendations": "Follow strict low-sodium diet under medical supervision.",
+                "saltIntake": "Sodium intake limited to 1,000-1,500 mg per day."
+            },
+            "exercise": {
+                "recommendations": "Limited physical activity initially, under doctor guidance.",
+                "examples": "Gentle walking as advised."
+            },
+            "weightManagement": {
+                "recommendations": "Gradual weight loss, but focus on stabilizing blood pressure first."
+            },
+            "alcohol": {
+                "recommendations": "Avoid alcohol until blood pressure is stabilized."
+            },
+            "smoking": {
+                "recommendations": "Immediate smoking cessation required."
+            },
+            "stressManagement": {
+                "recommendations": "Manage stress with guided relaxation techniques."
+            }
+        },
+        "medications": {
+            "Nitroglycerin": {
+                "medicationName": "Nitroglycerin (IV)",
+                "schedule": {
+                    "frequency": "Continuous infusion",
+                    "dosage": "Varies",
+                    "administration": "Hospital setting"
+                },
+                "instructions": "Administered in hospital via IV to control blood pressure."
+            },
+            "Labetalol": {
+                "medicationName": "Labetalol (IV)",
+                "schedule": {
+                    "frequency": "IV bolus or continuous infusion",
+                    "dosage": "20-80 mg bolus, or infusion",
+                    "administration": "Hospital setting"
+                },
+                "instructions": "Monitored in a medical facility to reduce BP rapidly."
+            }
+        }
+    }
+}
